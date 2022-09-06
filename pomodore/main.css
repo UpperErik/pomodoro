@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: tomato;
+}
+#app {
+  background-color: whitesmoke;
+  width: 500px;
+  margin: 0 auto;
+  border: solid 1px #ccc;
+  padding: 20px;
+  background: rgba(2, 0, 0, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#time {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#time #value {
+  font-size: 48px;
+  font-weight: bolder;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: solid 2.3px rgb(0, 0, 0);
+  width: 300px;
+}
+
+button,
+input[type="submit"] {
+  border: none;
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.task {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.task .completed {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.done {
+  display: inline-block;
+  padding: 5px;
+  background-color: #ccc;
+}
